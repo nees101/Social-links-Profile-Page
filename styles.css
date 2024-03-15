@@ -1,0 +1,71 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Inter, sans-serif;
+    font-size:1rem;
+    background-color:hsl(0, 0%, 8%);
+    color: white;
+    text-align:center;
+}
+main{
+    width:100%;
+    max-width:19rem;
+    margin:11.25rem auto;
+    background-color: hsl(0, 0%, 12%);
+    padding:1.25rem 2.5rem;
+    border-radius:1rem;
+}
+h1{
+    font-size:1.6rem;
+    font-weight:400;
+}
+.avatar{
+    width:100%;
+    max-width:5.625rem;
+    border-radius:50%;
+
+}
+p{
+    font-size:0.875rem;
+}
+.location{
+    color:hsl(75, 94%, 57%);
+    font-weight:600;
+    margin-bottom:2rem;
+}
+button{
+    width:100%;
+    margin:8px 0;
+    border-radius:0.5rem;
+    padding:0.9375rem 0;
+    background-color:hsl(0, 0%, 20%);
+    color:white;
+    font-weight:700;
+    font-size:0.875rem;
+    border:none;
+}
+button:hover{
+    background-color:hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 8%);
+    cursor:pointer;
+    caret-color: hsl(0, 0%, 8%);
+}
+.attribution {
+     font-size: 11px;
+      text-align: center;
+      margin-bottom:20px;
+     }
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+    }
+
+
+
+    @media screen and (min-width: 375px) {
+        main {
+          max-width:17rem;
+          padding:1.25rem 1.5625rem;
+          margin:7.5rem auto;
+        }
+      }
